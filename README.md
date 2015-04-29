@@ -1,4 +1,4 @@
-# bee-backend
+# ensemble-backend
 
 ## Security setup
 
