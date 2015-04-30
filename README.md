@@ -1,4 +1,6 @@
-![](./img/logo/ensemble2@0,5x.png = 100x)
+<img src="./img/logo/ensemble2@0,5x.png" alt="Ensemble" style="width: 200px;"/>
+
+# ![](./img/logo/ensemble2@0,5x.png = 100x)
 # ensemble-backend
 ## Genral setup
 
