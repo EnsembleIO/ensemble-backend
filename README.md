@@ -1,7 +1,5 @@
-# ensemble-backend
-
 ![Alt text](/img/ensemble2.png?raw=true "Ensemble")
-
+# ensemble-backend
 ## Genral setup
 
 Clone repo :
