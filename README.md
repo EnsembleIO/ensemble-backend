@@ -1,4 +1,4 @@
-![Ensemble](/img/logo/ensemble2@0,5x.png =100x20)
+![](/img/logo/ensemble2@0,5x.png =100x)
 # ensemble-backend
 ## Genral setup
 
