@@ -1,4 +1,4 @@
-![Alt text](/img/logo/ensemble2@0,5x.png?raw=true "Ensemble")
+![Ensemble](/img/logo/ensemble2@0,5x.png =100x20)
 # ensemble-backend
 ## Genral setup
 
