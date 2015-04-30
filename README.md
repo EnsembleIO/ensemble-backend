@@ -1,4 +1,4 @@
-<img src="./img/logo/ensemble2@0,5x.png" alt="Ensemble" style="width: 100px;"/>
+<img src="./img/logo/ensemble2@0,5x.png" alt="Ensemble" width="100px;"/>
 
 # ensemble-backend
 ## Genral setup
