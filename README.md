@@ -4,15 +4,25 @@
 
 ## Genral setup
 
+clone repo
 ```
 git clone 'url'
 ```
 
 start mongo
+```
+mongod
+```
 
 start elasticsearch
 ```
+./bin/elasticsearch
+```
+
+start ensemble-backend
+```
 npm install
+node server.js
 ```
 
 
