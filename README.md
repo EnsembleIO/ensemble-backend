@@ -1,5 +1,22 @@
 # ensemble-backend
 
+
+
+## Genral setup
+
+```
+git clone 'url'
+```
+
+start mongo
+start elasticsearch
+```
+npm install
+```
+
+
+
+
 ## Security setup
 
 ### OAuth 2.0
