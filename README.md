@@ -1,6 +1,4 @@
 <img src="./img/logo/ensemble2@0,5x.png" alt="Ensemble" width="450px;"/>
-
-# ensemble-backend
 ## Genral setup
 
 Clone repo :
