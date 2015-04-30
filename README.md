@@ -4,38 +4,35 @@
 
 ## Genral setup
 
-clone repo
+Clone repo :
 ```
 git clone 'url'
 ```
 
-start mongo
+Start mongo database :
 ```
 mongod
 ```
 
-start elasticsearch
+Start elasticsearch :
 ```
 ./bin/elasticsearch
 ```
 
-start ensemble-backend
+Start ensemble-backend server :
 ```
 npm install
 node server.js
 ```
 
 
-
-
 ## Security setup
 
 ### OAuth 2.0
 
-Insert a client in the database:
+Insert a client in the database :
 
 ```
-
 db.oauthclients.save({ clientId: 's6BhdRkqt3', clientSecret: 'gX1fBat3bV', redirectUri: 'http://beesearch.fr/logged' })
 
 ```
@@ -53,14 +50,12 @@ Passwords are hashed using [bcrypt](https://github.com/ncb000gt/node.bcrypt.js),
 To get an access token, launch a POST request on /oauth/token:
 
 ```
-
 POST /oauth/token HTTP/1.1
 Host: server.example.com
 Authorization: Basic czZCaGRSa3F0MzpnWDFmQmF0M2JW
 Content-Type: application/x-www-form-urlencoded
 
 grant_type=password&username=alex&password=test
-
 ```
 
 ### HTTPS
@@ -99,16 +94,12 @@ An optional company name []:
 Generate the certificate:
 
 ```bash
-
 $ openssl x509 -req -in certrequest.csr -signkey bee-key.pem -out bee-cert.pem
-
 ```
 
 Finally start the server:
 ```bash
-
 $ node server.js
-
 ```
 
 To start in a production environment, use:
