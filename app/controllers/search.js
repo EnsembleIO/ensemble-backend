@@ -3,23 +3,21 @@ var esclient = require('../../server').esclient;
 
 exports.companySearch = function(req, res) {
 
-  var indexes = req.query.indexes;
-  var types = req.query.types;
-  var search = req.query.search;
+  //var indexes = req.query.indexes;
+  //var types = req.query.types;
+  //var search = req.query.search;
+  var indexes = "cnamts";
+  var types = "statcaisse";
+  var search = "4599-6654-4298-2051";
   console.log('### in companySearch (type: ' + types + ', index: ' + indexes  + ' , search: ' + search + ')');
 
   esclient.search({
     index: indexes,
     type: types,
-    body: 
-    {
-      //"fields" : ["name", "siren", "id"],
-      "query": {
-        "match_phrase_prefix": {
-          "name": {
-            "query": search,
-            "max_expansions": 5
-          }
+    body: {
+      query: {
+        match: {
+          id: '27'
         }
       }
     }
