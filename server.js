@@ -58,6 +58,7 @@ app.configure(function () {
 	app.use(app.router);
 	app.use(express.errorHandler());
 	app.use(app.oauth.errorHandler());
+	app.use(express.static(__dirname + '/public'));
 });
 
 // OAuth configuration

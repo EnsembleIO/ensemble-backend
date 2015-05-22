@@ -6,8 +6,8 @@ exports.companySearch = function(req, res) {
   //var indexes = req.query.indexes;
   //var types = req.query.types;
   //var search = req.query.search;
-  var indexes = "cnamts";
-  var types = "statcaisse";
+  var indexes = "hackathon";
+  var types = "news";
   var search = "4599-6654-4298-2051";
   console.log('### in companySearch (type: ' + types + ', index: ' + indexes  + ' , search: ' + search + ')');
 
@@ -16,8 +16,8 @@ exports.companySearch = function(req, res) {
     type: types,
     body: {
       query: {
-        match: {
-          id: '27'
+        match_phrase_prefix: {
+          "target.id": 'urn:ensemble:margaux'
         }
       }
     }
