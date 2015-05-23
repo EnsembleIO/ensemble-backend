@@ -11,7 +11,7 @@
 		"enabled": false
 	},
 	"elasticsearch": {
-		"host": "https://fzan4xer:1l0nx4qxyuup12ul@azalea-9794680.us-east-1.bonsai.io/",
+		"host": "localhost:9200",
 		"log" : "info" 
 	}
 }

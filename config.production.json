@@ -1,17 +1,17 @@
 {
 	"https": {
-		"enabled": true,
+		"enabled": false,
 		"port": 443
 	},
 	"http": {
-		"enabled": false,
-		"port": 80
+		"enabled": true,
+		"port": 3000
 	},
 	"oauth": {
-		"enabled": true
+		"enabled": false
 	},
 	"elasticsearch": {
-		"host": "localhost:9200",
-		"log": "warning" 
+		"host": "https://fzan4xer:1l0nx4qxyuup12ul@azalea-9794680.us-east-1.bonsai.io/",
+		"log" : "info" 
 	}
 }
