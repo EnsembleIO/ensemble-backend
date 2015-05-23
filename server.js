@@ -95,10 +95,10 @@ if (config.https.enabled) {
 		cert: fs.readFileSync('keys/bee-cert.pem')
 	};
 
-	https.createServer(options, app).listen(port);
+	https.createServer(options, app).listen(process.env.PORT || port);
 	console.log ('### Server started: HTTPS listening on port ' + port);
 } else if (config.http.enabled) {
 	var port = config.http.port || 80;
-	http.createServer(app).listen(port);
+	http.createServer(app).listen(process.env.PORT || port);
 	console.log ('### Server started: HTTP listening on port ' + port);
 }
