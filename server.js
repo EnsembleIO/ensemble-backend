@@ -99,6 +99,6 @@ if (config.https.enabled) {
 	console.log ('### Server started: HTTPS listening on port ' + port);
 } else if (config.http.enabled) {
 	var port = config.http.port || 80;
-	http.createServer(app).listen(process.env.PORT || port);
+	http.createServer(app).listen(port);
 	console.log ('### Server started: HTTP listening on port ' + port);
 }

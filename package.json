@@ -18,7 +18,7 @@
     "mongoose": "3.x",
     "node-oauth2-server": "~2.1.0",
     "bcrypt": "^0.8.x",
-    "elasticsearch": "~2.2.0",
+    "elasticsearch": "~4.0.0",
     "async": "~0.9.0",
     "mongojs": "~0.14.1"
   }
