@@ -104,4 +104,4 @@ Deploy to heroku
 $ git push heroku master
 ```
 
-Get news feeds : [here](https://ensembleio.herokuapp.com/search)
+Get news feeds : http://localhost:3000/search?search=Margaux

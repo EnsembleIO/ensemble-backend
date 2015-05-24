@@ -5,10 +5,10 @@ exports.companySearch = function(req, res) {
 
   //var indexes = req.query.indexes;
   //var types = req.query.types;
-  //var search = req.query.search;
+  var search = req.query.search;
   var indexes = "hackathon";
   var types = "news";
-  var search = "4599-6654-4298-2051";
+  //var search = "4599-6654-4298-2051";
   console.log('### in companySearch (type: ' + types + ', index: ' + indexes  + ' , search: ' + search + ')');
 
   esclient.search({
@@ -17,7 +17,7 @@ exports.companySearch = function(req, res) {
     body: {
       query: {
         match_phrase_prefix: {
-          "target.id": 'urn:ensemble:margaux'
+          "target.id": 'urn:ensemble:' + search
         }
       }
     }
