@@ -98,3 +98,10 @@ $ NODE_ENV=production node server.js
 ```
 
 Config file `config.production.json` will be used.
+
+Deploy to heroku
+```bash
+$ git push heroku master
+```
+
+Get news feeds : [here](https://ensembleio.herokuapp.com/search)
