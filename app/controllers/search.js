@@ -14,7 +14,7 @@ exports.companySearch = function(req, res) {
     body: {
       query: {
         match_phrase_prefix: {
-          "target.id": 'urn:ensemble:' + search
+          "target.id": 'urn:ensemble:member:' + search
         }
       }
     }
