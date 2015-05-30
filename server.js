@@ -32,7 +32,7 @@ var enableCORS = function(req, res, next) {
 };
 
 // MongoDB setup
-//require('./app/db/setup');
+require('./app/db/setup');
 
 // ElasticSearch setup
 var esclient = new elasticsearch.Client({
