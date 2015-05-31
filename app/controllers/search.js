@@ -12,6 +12,10 @@ exports.companySearch = function(req, res) {
     index: indexes,
     type: types,
     body: {
+      size: 20,
+      sort:{
+        "published" : "desc" 
+      },
       query: {
         match_phrase_prefix: {
           "target.id": 'urn:ensemble:member:' + search
